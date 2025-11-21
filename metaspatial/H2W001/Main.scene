@@ -1,0 +1,4863 @@
+entities:
+  com.meta.models.Scene:
+    - components:
+        com.meta.components.Name:
+          {}
+        com.meta.components.Scene:
+          nodes:
+            - ref:100931
+            - ref:101012
+            - ref:100833
+            - ref:101011
+            - ref:100146
+            - ref:100832
+            - ref:100930
+            - ref:100927
+            - ref:101211
+            - ref:100838
+            - ref:100891
+            - ref:100834
+            - ref:101008
+            - ref:101003
+            - ref:100377
+            - ref:100926
+            - ref:100924
+            - ref:100501
+            - ref:100286
+            - ref:101005
+            - ref:100840
+            - ref:100004
+            - ref:100835
+            - ref:101010
+            - ref:100497
+            - ref:100837
+            - ref:100918
+            - ref:101004
+            - ref:100127
+            - ref:100841
+            - ref:100919
+            - ref:100836
+            - ref:100511
+            - ref:100487
+            - ref:100905
+            - ref:100288
+            - ref:100849
+            - ref:100391
+            - ref:100844
+            - ref:100889
+            - ref:100839
+            - ref:100845
+            - ref:100381
+            - ref:100023
+            - ref:100907
+            - ref:100493
+            - ref:101013
+            - ref:100033
+            - ref:100842
+            - ref:100508
+            - ref:100843
+            - ref:100850
+            - ref:100936
+            - ref:100490
+            - ref:101007
+            - ref:100862
+            - ref:101009
+            - ref:101006
+            - ref:100922
+            - ref:100887
+            - ref:100916
+            - ref:100913
+            - ref:101014
+            - ref:100908
+            - ref:100865
+            - ref:101212
+            - ref:101351
+            - ref:101352
+            - ref:101210
+            - ref:100895
+            - ref:100903
+            - ref:100917
+            - ref:100904
+            - ref:100375
+            - ref:100909
+            - ref:100923
+            - ref:100915
+            - ref:100942
+            - ref:100928
+            - ref:100140
+            - ref:100934
+            - ref:100510
+            - ref:100935
+            - ref:100507
+            - ref:100287
+            - ref:100946
+            - ref:100496
+            - ref:100953
+            - ref:100954
+            - ref:100285
+            - ref:100955
+            - ref:100963
+            - ref:101141
+            - ref:101142
+            - ref:101259
+            - ref:101263
+            - ref:100348
+            - ref:100161
+            - ref:100151
+            - ref:100002
+            - ref:100005
+            - ref:100032
+            - ref:100280
+            - ref:100006
+            - ref:100008
+            - ref:100353
+            - ref:100012
+            - ref:100016
+            - ref:100021
+            - ref:100025
+            - ref:100384
+            - ref:100130
+            - ref:100139
+            - ref:100110
+            - ref:100135
+            - ref:100499
+            - ref:100148
+            - ref:100270
+            - ref:100382
+            - ref:100271
+            - ref:100281
+            - ref:100282
+            - ref:100486
+            - ref:100283
+            - ref:100284
+            - ref:100476
+            - ref:100289
+            - ref:100290
+            - ref:100376
+            - ref:100378
+            - ref:100379
+            - ref:100380
+            - ref:100383
+            - ref:100394
+            - ref:100385
+            - ref:100392
+            - ref:100397
+            - ref:100398
+            - ref:100475
+            - ref:100485
+            - ref:100488
+            - ref:100489
+            - ref:100491
+            - ref:100492
+            - ref:100494
+            - ref:100495
+            - ref:100498
+            - ref:100500
+            - ref:100502
+            - ref:100505
+            - ref:100509
+            - ref:100152
+            - ref:100022
+      tag: Scene
+  com.meta.models.SceneNode:
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100930
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.721483946
+            - -0.00242431299
+            - 0.692280352
+            - -0.0142471697
+          rotation.format: Quaternion
+          scale:
+            - 8.58242416
+            - 0.420296967
+            - 20.3964558
+          translation:
+            - -17.4949188
+            - 212.963577
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.011
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100930
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100832
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.715222597
+            - 0.698541522
+            - -0.0205154698
+            - 0.00868877117
+          rotation.format: Quaternion
+          scale:
+            - 0.0681630746
+            - 7.87351847
+            - 0.0681638792
+          translation:
+            - -17.4949188
+            - 212.963577
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cylinder C
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100832
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100833
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.491232216
+            - 0.500087559
+            - -0.520245552
+            - -0.487799108
+          rotation.format: Quaternion
+          scale:
+            - 0.249998227
+            - 8.07385063
+            - 0.0939339474
+          translation:
+            - -17.4949188
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube Soft
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100833
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100931
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.491231859
+            - 0.500088036
+            - -0.520244658
+            - -0.487799853
+          rotation.format: Quaternion
+          scale:
+            - 0.527365744
+            - 0.00174708304
+            - 1.47182429
+          translation:
+            - 14.6911125
+            - 5.81149292
+            - -12.586853
+          componentVersion: 1
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100931
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 101211
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.681835413
+            - 0.664200723
+            - 0.201505885
+            - -0.230939925
+          rotation.format: Quaternion
+          scale:
+            - 2.24204302
+            - 2.57198429
+            - 0.194853619
+          translation:
+            - -17.4949207
+            - 212.963623
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Half Sphere C
+        com.meta.components.Visibility:
+          visible: true
+      tag: 101211
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100838
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.700968981
+            - 0.00626147399
+            - -0.0229420476
+            - -0.712795258
+          rotation.format: Quaternion
+          scale:
+            - 0.249999449
+            - 8.10359192
+            - 0.093934156
+          translation:
+            - -17.4949188
+            - 212.963608
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube Soft.004
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100838
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100834
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.491232276
+            - 0.500087261
+            - -0.520245552
+            - -0.487799287
+          rotation.format: Quaternion
+          scale:
+            - 0.754939735
+            - 8.04247093
+            - 0.0939332396
+          translation:
+            - -17.4949188
+            - 212.963562
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube Soft.001
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100834
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 101008
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.756148815
+            - -0.648151636
+            - -0.0697817132
+            - 0.0571750253
+          rotation.format: Quaternion
+          scale:
+            - 0.203032136
+            - 0.203033403
+            - 0.203031823
+          translation:
+            - -17.4949207
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Sphere B.003
+        com.meta.components.Visibility:
+          visible: true
+      tag: 101008
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100377
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451104
+            - -0.511882246
+            - 0.499592513
+            - 0.479438603
+          rotation.format: Quaternion
+          scale:
+            - 0.0316956826
+            - 0.0498161055
+            - 4.79662943
+          translation:
+            - -17.4949207
+            - 212.963608
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.037
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100377
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100924
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.71521461
+            - 0.698547781
+            - -0.0206343774
+            - 0.00857101195
+          rotation.format: Quaternion
+          scale:
+            - 1.08995712
+            - 0.36285308
+            - 5.60010242
+          translation:
+            - -17.4949188
+            - 212.963623
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.010
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100924
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100286
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451104
+            - -0.511882305
+            - 0.499592572
+            - 0.479438692
+          rotation.format: Quaternion
+          scale:
+            - 0.0316959135
+            - 0.0498156808
+            - 4.79663229
+          translation:
+            - -17.494915
+            - 212.963562
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.030
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100286
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100004
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.0469570905
+            - -0.498917758
+            - -0.0381213352
+            - -0.864536226
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -17.4949207
+            - 212.963577
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Primitives10x10Plane_geom
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100004
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100835
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.511882603
+            - 0.508449376
+            - 0.479437649
+            - -0.499595016
+          rotation.format: Quaternion
+          scale:
+            - 0.0681666061
+            - 17.0954552
+            - 0.0681627616
+          translation:
+            - -17.4949188
+            - 212.963593
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cylinder C.001
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100835
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100918
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.506020129
+            - 0.505950809
+            - 0.483929336
+            - -0.503755689
+          rotation.format: Quaternion
+          scale:
+            - 0.827835083
+            - 0.519168496
+            - 10.2773705
+          translation:
+            - -17.4949188
+            - 212.963623
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube Soft.012
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100918
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100836
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.700968862
+            - 0.0062609571
+            - -0.0229424834
+            - -0.712795317
+          rotation.format: Quaternion
+          scale:
+            - 0.249999821
+            - 17.4327488
+            - 0.0939342752
+          translation:
+            - -17.4949188
+            - 212.963562
+            - -83.9756012
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube Soft.002
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100836
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 101011
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.228329882
+            - 0.0667403415
+            - -0.55314064
+            - 0.798402667
+          rotation.format: Quaternion
+          scale:
+            - 0.257653952
+            - 0.587692618
+            - 0.2576482
+          translation:
+            - -17.4949188
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Sphere B.010
+        com.meta.components.Visibility:
+          visible: true
+      tag: 101011
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100905
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.00868660863
+            - 0.0205139816
+            - 0.698543131
+            - -0.715221167
+          rotation.format: Quaternion
+          scale:
+            - 0.115644
+            - 0.115646951
+            - 0.1156478
+          translation:
+            - -17.4949169
+            - 212.963577
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:trophy
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100905
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100288
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.721485317
+            - -0.00242493139
+            - 0.692278981
+            - -0.0142427096
+          rotation.format: Quaternion
+          scale:
+            - 0.0316960029
+            - 0.049817089
+            - 10.362978
+          translation:
+            - -17.4949226
+            - 212.963608
+            - -83.9756317
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.032
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100288
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100837
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.70096904
+            - 0.00626092637
+            - -0.0229425952
+            - -0.712795079
+          rotation.format: Quaternion
+          scale:
+            - 0.754939795
+            - 17.4327087
+            - 0.0939343199
+          translation:
+            - -17.4949169
+            - 212.963593
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube Soft.003
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100837
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100849
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 4.8747868e-08
+            - -0.382683307
+            - 0
+            - 0.923879623
+          rotation.format: Quaternion
+          scale:
+            - 1.69403124
+            - 2.54104495
+            - 1.6940552
+          translation:
+            - -17.4949188
+            - 212.963608
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Sphere
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100849
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100839
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.511882603
+            - 0.508449197
+            - 0.47943753
+            - -0.499595135
+          rotation.format: Quaternion
+          scale:
+            - 0.0681641698
+            - 7.90250826
+            - 0.0681645274
+          translation:
+            - -17.4949169
+            - 212.963577
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cylinder C.002
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100839
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 101010
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.406240374
+            - 0.195089146
+            - -0.451173753
+            - 0.770292938
+          rotation.format: Quaternion
+          scale:
+            - 0.306079388
+            - 0.306078821
+            - 0.306078911
+          translation:
+            - -17.4949265
+            - 212.963562
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Sphere B.009
+        com.meta.components.Visibility:
+          visible: true
+      tag: 101010
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100487
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451164
+            - -0.511882305
+            - 0.499592453
+            - 0.479438603
+          rotation.format: Quaternion
+          scale:
+            - 0.0316959135
+            - 0.0498161167
+            - 4.79662609
+          translation:
+            - -17.4949188
+            - 212.963623
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.053
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100487
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100907
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.721484303
+            - -0.00242682174
+            - 0.692279816
+            - -0.0142525472
+          rotation.format: Quaternion
+          scale:
+            - 0.0253747292
+            - 0.134717494
+            - 11.7774696
+          translation:
+            - -17.4949207
+            - 212.963577
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.005
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100907
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100840
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.700968981
+            - 0.00626103766
+            - -0.0229424424
+            - -0.712795198
+          rotation.format: Quaternion
+          scale:
+            - 0.249999732
+            - 7.08079576
+            - 0.0939341784
+          translation:
+            - -17.4949188
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube Soft.005
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100840
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 101013
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.742339015
+            - 0.342334449
+            - 0.450921714
+            - -0.358342797
+          rotation.format: Quaternion
+          scale:
+            - 0.482956916
+            - 0.482955039
+            - 0.482956976
+          translation:
+            - -17.4949265
+            - 212.963593
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Sphere B.008
+        com.meta.components.Visibility:
+          visible: true
+      tag: 101013
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100926
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.50601995
+            - 0.505951107
+            - 0.483929366
+            - -0.503755569
+          rotation.format: Quaternion
+          scale:
+            - 1.62856793
+            - 1.10373831
+            - 9.22312069
+          translation:
+            - -17.4949169
+            - 212.963608
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube Soft.014
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100926
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100841
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.511882901
+            - 0.508449435
+            - 0.479437321
+            - -0.499594957
+          rotation.format: Quaternion
+          scale:
+            - 0.0681656897
+            - 6.94400406
+            - 0.0681648105
+          translation:
+            - -17.494915
+            - 212.963562
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cylinder C.003
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100841
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100889
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.50602001
+            - 0.505951107
+            - 0.483929366
+            - -0.503755569
+          rotation.format: Quaternion
+          scale:
+            - 1.62856793
+            - 1.10374057
+            - 9.22312069
+          translation:
+            - -17.4949226
+            - 212.963623
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube Soft.009
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100889
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100842
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.700968981
+            - 0.00626101624
+            - -0.0229424182
+            - -0.712795198
+          rotation.format: Quaternion
+          scale:
+            - 0.965735555
+            - 7.08100176
+            - 0.0939342976
+          translation:
+            - -17.4949188
+            - 212.963577
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube Soft.006
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100842
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100508
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451164
+            - -0.511882246
+            - 0.499592513
+            - 0.479438663
+          rotation.format: Quaternion
+          scale:
+            - 0.0316956602
+            - 0.0498156995
+            - 4.79663277
+          translation:
+            - -17.4949169
+            - 212.963593
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.071
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100508
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100497
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.721485317
+            - -0.00242459192
+            - 0.692279041
+            - -0.0142405927
+          rotation.format: Quaternion
+          scale:
+            - 0.0316960178
+            - 0.0498172119
+            - 10.3627815
+          translation:
+            - -17.4949207
+            - 212.963608
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.063
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100497
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100843
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.715222836
+            - 0.698541343
+            - -0.0205151532
+            - 0.00868908316
+          rotation.format: Quaternion
+          scale:
+            - 0.0681642666
+            - 8.00648594
+            - 0.068164371
+          translation:
+            - -17.4949188
+            - 212.963608
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cylinder C.004
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100843
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 101003
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.217502609
+            - 0.105843581
+            - -0.592028439
+            - 0.768760085
+          rotation.format: Quaternion
+          scale:
+            - 0.367819816
+            - 0.367817581
+            - 0.367818743
+          translation:
+            - -17.4949207
+            - 212.963608
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Sphere B.005
+        com.meta.components.Visibility:
+          visible: true
+      tag: 101003
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100844
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.491232336
+            - 0.5000875
+            - -0.520245373
+            - -0.487799317
+          rotation.format: Quaternion
+          scale:
+            - 0.249996886
+            - 8.21018982
+            - 0.0939339623
+          translation:
+            - -17.4949226
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube Soft.007
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100844
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100891
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.7214849
+            - -0.00242687739
+            - 0.69227922
+            - -0.0142547153
+          rotation.format: Quaternion
+          scale:
+            - 16.0065403
+            - 0.484152466
+            - 15.5288305
+          translation:
+            - -17.494915
+            - 212.963608
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.002
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100891
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100845
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.491232514
+            - 0.500087023
+            - -0.520245314
+            - -0.487799585
+          rotation.format: Quaternion
+          scale:
+            - 0.754941821
+            - 8.17843246
+            - 0.0939321518
+          translation:
+            - -17.494915
+            - 212.963593
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube Soft.008
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100845
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100850
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 3.6565325e-08
+            - 0.25881806
+            - 0
+            - -0.965926111
+          rotation.format: Quaternion
+          scale:
+            - 1.69404268
+            - 0.584819078
+            - 1.69403374
+          translation:
+            - -17.494915
+            - 212.963562
+            - -83.9756012
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Torus B
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100850
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100936
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.491231859
+            - 0.500088394
+            - -0.520244718
+            - -0.487799495
+          rotation.format: Quaternion
+          scale:
+            - 0.527365088
+            - 0.00174708245
+            - 1.48461628
+          translation:
+            - 14.4053326
+            - 5.99429321
+            - -4.93317413
+          componentVersion: 1
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100936
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100490
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451104
+            - -0.511882305
+            - 0.499592632
+            - 0.479438692
+          rotation.format: Quaternion
+          scale:
+            - 0.0316956826
+            - 0.0498161018
+            - 4.79662848
+          translation:
+            - -17.4949207
+            - 212.963608
+            - -83.9756012
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.056
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100490
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 101004
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.198230043
+            - 0.0763190016
+            - -0.520480216
+            - 0.827031195
+          rotation.format: Quaternion
+          scale:
+            - 0.367819011
+            - 0.367816865
+            - 0.367817491
+          translation:
+            - -17.494915
+            - 212.963608
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Sphere B
+        com.meta.components.Visibility:
+          visible: true
+      tag: 101004
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 101005
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.465914547
+            - 0.37091738
+            - -0.695297003
+            - 0.402375519
+          rotation.format: Quaternion
+          scale:
+            - 0.612892449
+            - 0.612892628
+            - 0.612886608
+          translation:
+            - -17.494936
+            - 212.963577
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Sphere B.001
+        com.meta.components.Visibility:
+          visible: true
+      tag: 101005
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 101007
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.680994034
+            - 0.6885252
+            - 0.246753484
+            - -0.0359564982
+          rotation.format: Quaternion
+          scale:
+            - 0.203033954
+            - 0.203032792
+            - 0.203030303
+          translation:
+            - -17.4949169
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Sphere B.002
+        com.meta.components.Visibility:
+          visible: true
+      tag: 101007
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100862
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.0086879693
+            - 0.0205154549
+            - 0.698541224
+            - -0.715222955
+          rotation.format: Quaternion
+          scale:
+            - 1.665048
+            - 0.0017470934
+            - 0.833455861
+          translation:
+            - -9.99184132
+            - 6.82925415
+            - 10.4188919
+          componentVersion: 1
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100862
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 101009
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.606301188
+            - 0.752549827
+            - 0.253646612
+            - -0.0416053683
+          rotation.format: Quaternion
+          scale:
+            - 0.203032017
+            - 0.203033879
+            - 0.203029677
+          translation:
+            - -17.4949226
+            - 212.963623
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Sphere B.004
+        com.meta.components.Visibility:
+          visible: true
+      tag: 101009
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 101006
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.19510822
+            - 0.298873127
+            - -0.724311352
+            - -0.589898944
+          rotation.format: Quaternion
+          scale:
+            - 0.271944404
+            - 0.693114519
+            - 0.367814362
+          translation:
+            - -17.4949207
+            - 212.963577
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Sphere B.006
+        com.meta.components.Visibility:
+          visible: true
+      tag: 101006
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100922
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.491232306
+            - 0.500087738
+            - -0.520245254
+            - -0.487799197
+          rotation.format: Quaternion
+          scale:
+            - 0.249999508
+            - 7.634624
+            - 0.0939342156
+          translation:
+            - -17.4949226
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube Soft.013
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100922
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 101012
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.511823833
+            - 0.724065483
+            - 0.423445553
+            - -0.18563281
+          rotation.format: Quaternion
+          scale:
+            - 0.24119468
+            - 0.241191983
+            - 0.241191193
+          translation:
+            - -17.4949188
+            - 212.963547
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Sphere B.007
+        com.meta.components.Visibility:
+          visible: true
+      tag: 101012
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100916
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.7214849
+            - -0.00242485269
+            - 0.692279398
+            - -0.0142427264
+          rotation.format: Quaternion
+          scale:
+            - 8.74999237
+            - 1.33433628
+            - 5.89379787
+          translation:
+            - -17.4949188
+            - 212.963577
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.009
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100916
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 101014
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.644995451
+            - 0.721765041
+            - 0.238478765
+            - -0.0785112604
+          rotation.format: Quaternion
+          scale:
+            - 0.289844632
+            - 0.289842725
+            - 0.289837867
+          translation:
+            - -17.4949093
+            - 212.963608
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Sphere B.011
+        com.meta.components.Visibility:
+          visible: true
+      tag: 101014
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100908
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.506019831
+            - 0.505951285
+            - 0.483929515
+            - -0.50375551
+          rotation.format: Quaternion
+          scale:
+            - 0.827841997
+            - 1.55543065
+            - 9.22310066
+          translation:
+            - -17.4949207
+            - 212.963623
+            - -83.9756317
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube Soft.010
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100908
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 101212
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.0038035973
+            - -0.719076216
+            - 0.014820924
+            - 0.694762826
+          rotation.format: Quaternion
+          scale:
+            - 11.0969563
+            - 0.849427879
+            - 15.3747272
+          translation:
+            - -17.4949169
+            - 212.963577
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Half Tube
+        com.meta.components.Visibility:
+          visible: true
+      tag: 101212
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 101351
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.655773282
+            - 0.612342954
+            - 0.293661445
+            - -0.329788774
+          rotation.format: Quaternion
+          scale:
+            - 0.170274451
+            - 0.170273826
+            - 0.170274451
+          translation:
+            - -17.4949226
+            - 212.963593
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:leaf
+        com.meta.components.Visibility:
+          visible: true
+      tag: 101351
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 101352
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.655774057
+            - 0.61234206
+            - 0.293660849
+            - -0.329789102
+          rotation.format: Quaternion
+          scale:
+            - 0.170275122
+            - 0.170274168
+            - 0.170276403
+          translation:
+            - -17.4949169
+            - 212.963577
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:tree_trunk
+        com.meta.components.Visibility:
+          visible: true
+      tag: 101352
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 101210
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.688888788
+            - 0.68306607
+            - 0.160802498
+            - -0.18164666
+          rotation.format: Quaternion
+          scale:
+            - 0.170274734
+            - 0.1702746
+            - 0.170270175
+          translation:
+            - -17.4949207
+            - 212.963562
+            - -83.9756012
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:pot
+        com.meta.components.Visibility:
+          visible: true
+      tag: 101210
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100865
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.00857148692
+            - 0.0206347182
+            - 0.698547482
+            - -0.715214789
+          rotation.format: Quaternion
+          scale:
+            - 0.678656757
+            - 0.678656459
+            - 0.678655744
+          translation:
+            - -2.8057909
+            - 4.07910156
+            - 11.2142181
+          componentVersion: 1
+          children:
+            - ref:100866
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100865
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100887
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.715221941
+            - 0.698542178
+            - -0.0205172691
+            - 0.00868934859
+          rotation.format: Quaternion
+          scale:
+            - 16.768095
+            - 24.0800743
+            - 3.86513019
+          translation:
+            - -17.4949188
+            - 212.963577
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.001
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100887
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100895
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.707106829
+            - -0.707106829
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 0.989880145
+            - 1
+            - 1
+          translation:
+            - 10.6694717
+            - 5.11709595
+            - -4.61649323
+          componentVersion: 1
+          children:
+            - ref:100896
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100895
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100903
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.71521461
+            - 0.698547781
+            - -0.0206343736
+            - 0.00857100915
+          rotation.format: Quaternion
+          scale:
+            - 15.359664
+            - 0.0569710843
+            - 1.6538074
+          translation:
+            - -17.4949226
+            - 212.963577
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.003
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100903
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100917
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.506020069
+            - 0.505950809
+            - 0.483929425
+            - -0.503755689
+          rotation.format: Quaternion
+          scale:
+            - 1.35373175
+            - 1.5554316
+            - 9.60116673
+          translation:
+            - -17.4949188
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube Soft.011
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100917
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100904
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.712796032
+            - -0.0229410343
+            - -0.00626341719
+            - 0.700968146
+          rotation.format: Quaternion
+          scale:
+            - 4.72547817
+            - 0.134717345
+            - 0.0752331913
+          translation:
+            - -17.4949188
+            - 212.963577
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.004
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100904
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100919
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.520244181
+            - 0.487802088
+            - 0.49123171
+            - 0.500086486
+          rotation.format: Quaternion
+          scale:
+            - 5.50690699
+            - 0.134724021
+            - 7.49979973
+          translation:
+            - -17.4949188
+            - 212.963638
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Ramp
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100919
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100909
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.487803578
+            - -0.520242333
+            - -0.500088274
+            - 0.491230577
+          rotation.format: Quaternion
+          scale:
+            - 4.84957838
+            - 0.0692185611
+            - 0.359385222
+          translation:
+            - -17.4949188
+            - 212.963577
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.006
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100909
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100913
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.721483707
+            - -0.00242498447
+            - 0.69228065
+            - -0.0142427003
+          rotation.format: Quaternion
+          scale:
+            - 16.007246
+            - 0.484826863
+            - 17.4672108
+          translation:
+            - -17.4949188
+            - 212.963593
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.007
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100913
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100915
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.931488156
+            - -0.00768970512
+            - 0.363484681
+            - -0.0122287218
+          rotation.format: Quaternion
+          scale:
+            - 3.44141436
+            - 0.303334385
+            - 3.20571446
+          translation:
+            - -17.4949188
+            - 212.963577
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.008
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100915
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100923
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.715222657
+            - 0.698541582
+            - -0.0205151178
+            - 0.00868828781
+          rotation.format: Quaternion
+          scale:
+            - 0.0681641921
+            - 7.44518423
+            - 0.0681644008
+          translation:
+            - -17.494915
+            - 212.963577
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cylinder C.005
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100923
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100927
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.50601995
+            - 0.505951107
+            - 0.483929366
+            - -0.503755569
+          rotation.format: Quaternion
+          scale:
+            - 1.62856793
+            - 1.10373712
+            - 9.22312069
+          translation:
+            - -17.4949207
+            - 212.963608
+            - -83.9756393
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube Soft.015
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100927
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100928
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.506020129
+            - 0.505950809
+            - 0.483929396
+            - -0.503755689
+          rotation.format: Quaternion
+          scale:
+            - 0.827835083
+            - 0.519168556
+            - 10.2773705
+          translation:
+            - -17.4949188
+            - 212.963593
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube Soft.016
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100928
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100934
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.698542535
+            - -0.715221643
+            - -0.00868652295
+            - -0.0205151755
+          rotation.format: Quaternion
+          scale:
+            - 5.50690699
+            - 0.134724051
+            - 7.4997983
+          translation:
+            - -17.4949188
+            - 212.963577
+            - -83.9756012
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Ramp.001
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100934
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100510
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451164
+            - -0.511882305
+            - 0.499592453
+            - 0.479438633
+          rotation.format: Quaternion
+          scale:
+            - 0.0316956714
+            - 0.0498157628
+            - 4.79663467
+          translation:
+            - -17.494915
+            - 212.963623
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.073
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100510
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100935
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.47943753
+            - -0.499595433
+            - -0.511880577
+            - -0.508450925
+          rotation.format: Quaternion
+          scale:
+            - 5.5069046
+            - 0.134723768
+            - 7.71661425
+          translation:
+            - -17.494915
+            - 212.963577
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Ramp.002
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100935
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100942
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.715221286
+            - 0.698542893
+            - -0.0205157064
+            - 0.00868804567
+          rotation.format: Quaternion
+          scale:
+            - 4.75690746
+            - 0.215573281
+            - 5.49980021
+          translation:
+            - -17.494915
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Ramp.003
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100942
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100507
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451164
+            - -0.511882246
+            - 0.499592572
+            - 0.479438663
+          rotation.format: Quaternion
+          scale:
+            - 0.0316959135
+            - 0.0498156808
+            - 4.79663277
+          translation:
+            - -17.494915
+            - 212.963577
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.070
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100507
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100287
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451104
+            - -0.511882365
+            - 0.499592513
+            - 0.479438692
+          rotation.format: Quaternion
+          scale:
+            - 0.0316959098
+            - 0.0498161018
+            - 4.79662704
+          translation:
+            - -17.4949188
+            - 212.963562
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.031
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100287
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100946
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.71521461
+            - 0.698547721
+            - -0.0206343699
+            - 0.00857101846
+          rotation.format: Quaternion
+          scale:
+            - 0.438233942
+            - 0.198961198
+            - 5.224576
+          translation:
+            - -17.4949188
+            - 212.963593
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.012
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100946
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100496
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.721485317
+            - -0.00242440659
+            - 0.6922791
+            - -0.0142396595
+          rotation.format: Quaternion
+          scale:
+            - 0.0316960178
+            - 0.0498171039
+            - 10.3629751
+          translation:
+            - -17.4949207
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.062
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100496
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100953
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.0206498634
+            - 0.0083612632
+            - 0.999682307
+            - -0.0117937764
+          rotation.format: Quaternion
+          scale:
+            - 0.0939382389
+            - 2.8494575
+            - 7.55667305
+          translation:
+            - -17.4949226
+            - 212.963593
+            - -83.9756317
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.013
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100953
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100954
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.692280769
+            - -0.0142525127
+            - -0.721483409
+            - 0.00242702453
+          rotation.format: Quaternion
+          scale:
+            - 0.0939382091
+            - 2.84945869
+            - 7.55667543
+          translation:
+            - -17.4949207
+            - 212.963608
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.014
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100954
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100285
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.721485794
+            - -0.00242518494
+            - 0.692278504
+            - -0.0142448433
+          rotation.format: Quaternion
+          scale:
+            - 0.0316959843
+            - 0.0498169549
+            - 10.3629017
+          translation:
+            - -17.4949226
+            - 212.963593
+            - -83.9756546
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.029
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100285
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100955
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.692279637
+            - -0.0142517639
+            - -0.721484482
+            - 0.00242715492
+          rotation.format: Quaternion
+          scale:
+            - 0.0939382687
+            - 3.25000024
+            - 7.55667448
+          translation:
+            - -17.4949226
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.015
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100955
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100963
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.00868810993
+            - 0.0205158554
+            - 0.69854331
+            - -0.715220928
+          rotation.format: Quaternion
+          scale:
+            - 1.529603
+            - 1.00000607e-05
+            - 0.910051882
+          translation:
+            - 17.1876564
+            - 6.05279541
+            - 11.4528961
+          componentVersion: 1
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100963
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 101141
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.0103984987
+            - 0.0213233586
+            - 0.699320495
+            - -0.714414477
+          rotation.format: Quaternion
+          scale:
+            - 3.46388626
+            - 0.663874328
+            - 0.442460209
+          translation:
+            - -17.494915
+            - 212.963562
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube Soft.017
+        com.meta.components.Visibility:
+          visible: true
+      tag: 101141
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 101142
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.0128405243
+            - 0.691009462
+            - 0.00226105796
+            - 0.722728133
+          rotation.format: Quaternion
+          scale:
+            - 0.66387552
+            - 0.47870481
+            - 3.46387219
+          translation:
+            - -17.4949188
+            - 212.963593
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.016
+        com.meta.components.Visibility:
+          visible: true
+      tag: 101142
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 101259
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.00868796837
+            - 0.0205154549
+            - 0.698541284
+            - -0.715222895
+          rotation.format: Quaternion
+          scale:
+            - 1.18725693
+            - 0.00174709293
+            - 0.833456039
+          translation:
+            - -6.27771664
+            - 6.39849854
+            - -5.36031342
+          componentVersion: 1
+        com.meta.components.Visibility:
+          visible: true
+      tag: 101259
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 101263
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.715221763
+            - 0.698542297
+            - -0.0205172952
+            - 0.0086893132
+          rotation.format: Quaternion
+          scale:
+            - 17.0752392
+            - 9.43407536
+            - 2.43340683
+          translation:
+            - -17.4949188
+            - 212.963608
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.017
+        com.meta.components.Visibility:
+          visible: true
+      tag: 101263
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100348
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.511793673
+            - 0.508538723
+            - 0.479357034
+            - -0.499672294
+          rotation.format: Quaternion
+          scale:
+            - 1.55780482
+            - 0.00174709351
+            - 0.0492023602
+          translation:
+            - -18.0799637
+            - 4.63357544
+            - 2.23293304
+          componentVersion: 1
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100348
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100161
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.487803519
+            - -0.520242393
+            - -0.500088155
+            - 0.491230696
+          rotation.format: Quaternion
+          scale:
+            - 4.5968008
+            - 7.31807899
+            - 1.32971311
+          translation:
+            - -17.4949169
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:matchsize1
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100161
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100002
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.527834594
+            - 0.516831815
+            - 0.465847999
+            - -0.487094551
+          rotation.format: Quaternion
+          scale:
+            - 0.0479849391
+            - 0.00709723728
+            - 0.0479849614
+          translation:
+            - -17.4949226
+            - 212.963593
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:hotel_lobby_planters_3_2
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100002
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100005
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.53751117
+            - 0.525191545
+            - 0.453736573
+            - -0.478935003
+          rotation.format: Quaternion
+          scale:
+            - 0.0479849204
+            - 0.00709723728
+            - 0.0479849577
+          translation:
+            - -17.4949188
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:hotel_lobby_planters_3_2.001
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100005
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100032
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.241125673
+            - 0
+            - 0
+            - -0.970493913
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -17.494915
+            - 212.963593
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:IJLogo_Masked
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100032
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100280
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508448064
+            - -0.511882782
+            - 0.499595374
+            - 0.479438215
+          rotation.format: Quaternion
+          scale:
+            - 4.53167009
+            - 0.484161228
+            - 5.33054972
+          translation:
+            - -17.4949226
+            - 212.963577
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.024
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100280
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100006
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.5010131
+            - 0.498684019
+            - 0.507911325
+            - -0.492266595
+          rotation.format: Quaternion
+          scale:
+            - 0.0479849428
+            - 0.00709723914
+            - 0.0479849577
+          translation:
+            - -17.4949188
+            - 212.963608
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:hotel_lobby_planters_3_2.002
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100006
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100008
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.0155719221
+            - -0.00160123326
+            - 0.71401912
+            - 0.699951172
+          rotation.format: Quaternion
+          scale:
+            - 0.749122441
+            - 0.756779671
+            - 0.75677973
+          translation:
+            - 10.6841087
+            - 5.63964844
+            - -13.1825867
+          componentVersion: 1
+          children:
+            - ref:100009
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100008
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100012
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.0155719221
+            - -0.00160123257
+            - 0.71401912
+            - 0.699951172
+          rotation.format: Quaternion
+          scale:
+            - 0.749122441
+            - 0.756779671
+            - 0.75677973
+          translation:
+            - 10.6764545
+            - 5.25706482
+            - -13.1750641
+          componentVersion: 1
+          children:
+            - ref:100013
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100012
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100016
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.0155719211
+            - -0.00160123257
+            - 0.71401912
+            - 0.699951172
+          rotation.format: Quaternion
+          scale:
+            - 0.74912262
+            - 0.75677985
+            - 0.75677973
+          translation:
+            - 10.6688042
+            - 4.8744812
+            - -13.1675415
+          componentVersion: 1
+          children:
+            - ref:100017
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100016
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100021
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.71521461
+            - 0.698547721
+            - -0.0206344686
+            - 0.00857106782
+          rotation.format: Quaternion
+          scale:
+            - 0.383971304
+            - 0.301582485
+            - 8.67870045
+          translation:
+            - -17.4949188
+            - 212.963577
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.018
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100021
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100025
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.721485019
+            - -0.0023003656
+            - 0.692277372
+            - -0.0143572874
+          rotation.format: Quaternion
+          scale:
+            - 8.3166523
+            - 0.134721085
+            - 15.3620443
+          translation:
+            - -17.4949112
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.019
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100025
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100033
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.50001508
+            - -0.491140455
+            - 0.487887233
+            - -0.520319164
+          rotation.format: Quaternion
+          scale:
+            - 3.35107422
+            - 0.134721175
+            - 15.3659725
+          translation:
+            - -17.4949188
+            - 212.963577
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.020
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100033
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100130
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.701057374
+            - 0.701057315
+            - 0.0922961906
+            - -0.0922962129
+          rotation.format: Quaternion
+          scale:
+            - 0.013557625
+            - 0.0135576203
+            - 0.0135576213
+          translation:
+            - -2.49491787
+            - 4.39408875
+            - -3.97561646
+          componentVersion: 1
+          children:
+            - ref:100131
+            - ref:100132
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100130
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100139
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.499588549
+            - 0.479443431
+            - -0.508451521
+            - 0.511881113
+          rotation.format: Quaternion
+          scale:
+            - 0.00906622037
+            - 0.00906621292
+            - 0.00477153109
+          translation:
+            - -17.4949188
+            - 212.963593
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:bean_bag
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100139
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100140
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.270597935
+            - 0.270597965
+            - 0.653281629
+            - -0.65328145
+          rotation.format: Quaternion
+          scale:
+            - 0.0216491371
+            - 0.0216491763
+            - 0.0216491353
+          translation:
+            - -13.9948912
+            - 4.71360779
+            - -8.72560883
+          componentVersion: 1
+          children:
+            - ref:100141
+            - ref:100142
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100140
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100110
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.50602001
+            - 0.505951107
+            - 0.483929336
+            - -0.503755629
+          rotation.format: Quaternion
+          scale:
+            - 3.1861105
+            - 10000.001
+            - 2.31716275
+          translation:
+            - -17.4949188
+            - 212.963608
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Scene001_BR
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100110
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100127
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.499594927
+            - 0.479436904
+            - -0.508450031
+            - 0.511882722
+          rotation.format: Quaternion
+          scale:
+            - 3.18610072
+            - 10000
+            - 2.31716323
+          translation:
+            - -17.494915
+            - 212.963593
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Scene003_BR
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100127
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100135
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.0128382826
+            - 0.691009343
+            - 0.00226064492
+            - 0.722728372
+          rotation.format: Quaternion
+          scale:
+            - 0.663875401
+            - 0.4787049
+            - 3.46387815
+          translation:
+            - -17.4949226
+            - 212.963593
+            - -83.9756317
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.021
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100135
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100146
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.5118801
+            - 0.50845021
+            - 0.479438961
+            - -0.499595374
+          rotation.format: Quaternion
+          scale:
+            - 8.24032402
+            - 6.9813571
+            - 0.89974916
+          translation:
+            - -17.4949226
+            - 212.963577
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:matchsize1.001
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100146
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100148
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.511880219
+            - 0.508449912
+            - 0.479438752
+            - -0.499595672
+          rotation.format: Quaternion
+          scale:
+            - 0.0136021376
+            - 0.00557653792
+            - 1.09710944
+          translation:
+            - -17.4949169
+            - 212.963623
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Mesh.010
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100148
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100151
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.511880279
+            - 0.508450031
+            - 0.479438782
+            - -0.499595553
+          rotation.format: Quaternion
+          scale:
+            - 0.00837965496
+            - 0.00108752144
+            - 0.164806888
+          translation:
+            - -17.4949207
+            - 212.963577
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Mesh.011
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100151
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100270
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.721485317
+            - -0.00242627505
+            - 0.692278862
+            - -0.0142509528
+          rotation.format: Quaternion
+          scale:
+            - 4.53180933
+            - 0.484149575
+            - 10.3628941
+          translation:
+            - -17.4949188
+            - 212.963593
+            - -83.9755936
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.022
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100270
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100271
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508447945
+            - -0.511882782
+            - 0.499595612
+            - 0.479438156
+          rotation.format: Quaternion
+          scale:
+            - 4.53167486
+            - 0.484158695
+            - 5.33070803
+          translation:
+            - -17.4949188
+            - 212.963638
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.023
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100271
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100281
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.721484303
+            - -0.00242673676
+            - 0.692279816
+            - -0.01425377
+          rotation.format: Quaternion
+          scale:
+            - 0.0316959508
+            - 0.0498173535
+            - 10.3629723
+          translation:
+            - -17.4949207
+            - 212.963577
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.025
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100281
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100282
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451104
+            - -0.511882305
+            - 0.499592453
+            - 0.479438633
+          rotation.format: Quaternion
+          scale:
+            - 0.031695921
+            - 0.0498166084
+            - 4.79662752
+          translation:
+            - -17.4949188
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.026
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100282
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100486
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508447945
+            - -0.511882782
+            - 0.499595612
+            - 0.479438126
+          rotation.format: Quaternion
+          scale:
+            - 4.92434311
+            - 0.484158665
+            - 5.33071184
+          translation:
+            - -17.4949207
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.052
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100486
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100283
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451164
+            - -0.511882365
+            - 0.499592453
+            - 0.479438484
+          rotation.format: Quaternion
+          scale:
+            - 0.031695921
+            - 0.0498166047
+            - 4.79663324
+          translation:
+            - -17.4949207
+            - 212.963593
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.027
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100283
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100284
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451164
+            - -0.511882305
+            - 0.499592513
+            - 0.479438603
+          rotation.format: Quaternion
+          scale:
+            - 0.0316959135
+            - 0.0498161316
+            - 4.79662657
+          translation:
+            - -17.4949207
+            - 212.963577
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.028
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100284
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100476
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.822729945
+            - -0.321472079
+            - -0.272869766
+            - -0.381199747
+          rotation.format: Quaternion
+          scale:
+            - 4.62971115
+            - 6.87784386
+            - 1.35312963
+          translation:
+            - -17.4949093
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:matchsize1.003
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100476
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100289
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451104
+            - -0.511882305
+            - 0.499592513
+            - 0.479438692
+          rotation.format: Quaternion
+          scale:
+            - 0.0316959098
+            - 0.0498156808
+            - 4.79663277
+          translation:
+            - -17.4949188
+            - 212.963577
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.033
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100289
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100290
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451164
+            - -0.511882305
+            - 0.499592513
+            - 0.479438663
+          rotation.format: Quaternion
+          scale:
+            - 0.0316956788
+            - 0.0498161018
+            - 4.796628
+          translation:
+            - -17.4949169
+            - 212.963608
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.034
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100290
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100375
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.7214849
+            - -0.00242485269
+            - 0.692279458
+            - -0.0142427264
+          rotation.format: Quaternion
+          scale:
+            - 0.0316959955
+            - 0.0498171933
+            - 10.3627758
+          translation:
+            - -17.4949207
+            - 212.963593
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.035
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100375
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100376
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451164
+            - -0.511882246
+            - 0.499592453
+            - 0.479438722
+          rotation.format: Quaternion
+          scale:
+            - 0.0316956602
+            - 0.0498156995
+            - 4.79663372
+          translation:
+            - -17.4949169
+            - 212.963562
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.036
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100376
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100378
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.721485376
+            - -0.00242461357
+            - 0.692278981
+            - -0.0142405899
+          rotation.format: Quaternion
+          scale:
+            - 0.0316960104
+            - 0.0498172492
+            - 10.3628817
+          translation:
+            - -17.4949207
+            - 212.963608
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.038
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100378
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100379
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451164
+            - -0.511882305
+            - 0.499592453
+            - 0.479438633
+          rotation.format: Quaternion
+          scale:
+            - 0.0316956677
+            - 0.0498157442
+            - 4.79663515
+          translation:
+            - -17.4949226
+            - 212.963638
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.039
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100379
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100380
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451164
+            - -0.511882246
+            - 0.499592572
+            - 0.479438663
+          rotation.format: Quaternion
+          scale:
+            - 0.0316956863
+            - 0.0498161055
+            - 4.79662991
+          translation:
+            - -17.4949188
+            - 212.963623
+            - -83.9756317
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.040
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100380
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100381
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.721485853
+            - -0.00242433511
+            - 0.692278504
+            - -0.01423846
+          rotation.format: Quaternion
+          scale:
+            - 0.031695649
+            - 0.0498172157
+            - 10.362895
+          translation:
+            - -17.4949245
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.041
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100381
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100382
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451164
+            - -0.511882305
+            - 0.499592513
+            - 0.479438633
+          rotation.format: Quaternion
+          scale:
+            - 0.0316956677
+            - 0.0498157665
+            - 4.79663563
+          translation:
+            - -17.4949169
+            - 212.963608
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.042
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100382
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100383
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451164
+            - -0.511882246
+            - 0.499592572
+            - 0.479438663
+          rotation.format: Quaternion
+          scale:
+            - 0.03169569
+            - 0.0498162992
+            - 4.79663038
+          translation:
+            - -17.4949207
+            - 212.963623
+            - -83.9756317
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.043
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100383
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100384
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.721486211
+            - -0.00242541591
+            - 0.692278087
+            - -0.0142448051
+          rotation.format: Quaternion
+          scale:
+            - 0.0316956267
+            - 0.0498171896
+            - 10.3628397
+          translation:
+            - -17.4949207
+            - 212.963608
+            - -83.9756317
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.044
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100384
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100385
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451164
+            - -0.511882246
+            - 0.499592453
+            - 0.479438692
+          rotation.format: Quaternion
+          scale:
+            - 0.0316956714
+            - 0.0498158298
+            - 4.7966361
+          translation:
+            - -17.4949207
+            - 212.963577
+            - -83.9756012
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.045
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100385
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100392
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.00230108388
+            - 0.72148484
+            - -0.0143610863
+            - -0.692277551
+          rotation.format: Quaternion
+          scale:
+            - 0.0316956975
+            - 0.0498166122
+            - 16.7626305
+          translation:
+            - -17.4949188
+            - 212.963577
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.047
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100392
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100391
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.721484721
+            - -0.00242623128
+            - 0.692279458
+            - -0.0142509546
+          rotation.format: Quaternion
+          scale:
+            - 4.91877937
+            - 0.484149516
+            - 10.362958
+          translation:
+            - -17.4949188
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.046
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100391
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100132
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 458.537842
+            - -5986.03174
+            - -15383.9326
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:plank
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100132
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100394
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.00230096909
+            - 0.721485376
+            - -0.0143601205
+            - -0.692276895
+          rotation.format: Quaternion
+          scale:
+            - 0.0316959731
+            - 0.0498166271
+            - 15.7543707
+          translation:
+            - -17.4949226
+            - 212.963608
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.048
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100394
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100023
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.707106829
+            - 0.707106829
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -17.4949188
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:PrimitivesPlaneTwoSided_geom
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100023
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100397
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.00242462242
+            - 0.721483171
+            - -0.0142406849
+            - -0.692281306
+          rotation.format: Quaternion
+          scale:
+            - 0.0316958502
+            - 0.0498166196
+            - 17.1823254
+          translation:
+            - -17.4949188
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.049
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100397
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100398
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.00242685061
+            - 0.721485376
+            - -0.0142539078
+            - -0.692278683
+          rotation.format: Quaternion
+          scale:
+            - 0.0316958688
+            - 0.0498166382
+            - 15.1754532
+          translation:
+            - -17.4949188
+            - 212.963562
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.050
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100398
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100475
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.658771694
+            - -0.68090719
+            - -0.22185044
+            - -0.230581135
+          rotation.format: Quaternion
+          scale:
+            - 8.85808372
+            - 8.85808277
+            - 1.74271619
+          translation:
+            - -17.4949112
+            - 212.963623
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:matchsize1.002
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100475
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100485
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451283
+            - -0.511882424
+            - 0.499592245
+            - 0.479438484
+          rotation.format: Quaternion
+          scale:
+            - 0.0316959471
+            - 0.0498166271
+            - 4.79662704
+          translation:
+            - -17.4949207
+            - 212.963577
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.051
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100485
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100488
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451104
+            - -0.511882246
+            - 0.499592513
+            - 0.479438603
+          rotation.format: Quaternion
+          scale:
+            - 0.0316959135
+            - 0.0498161055
+            - 4.79662704
+          translation:
+            - -17.4949207
+            - 212.963608
+            - -83.9756317
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.054
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100488
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100489
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451164
+            - -0.511882365
+            - 0.499592513
+            - 0.479438633
+          rotation.format: Quaternion
+          scale:
+            - 0.0316956826
+            - 0.0498160981
+            - 4.79662704
+          translation:
+            - -17.4949169
+            - 212.963577
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.055
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100489
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100491
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451164
+            - -0.511882246
+            - 0.499592572
+            - 0.479438663
+          rotation.format: Quaternion
+          scale:
+            - 0.0316956863
+            - 0.0498161018
+            - 4.79662895
+          translation:
+            - -17.4949226
+            - 212.963623
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.057
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100491
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100492
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451104
+            - -0.511882246
+            - 0.499592513
+            - 0.479438603
+          rotation.format: Quaternion
+          scale:
+            - 0.03169569
+            - 0.0498162955
+            - 4.79662943
+          translation:
+            - -17.4949188
+            - 212.963638
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.058
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100492
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100493
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.721484244
+            - -0.00242598238
+            - 0.692279935
+            - -0.0142497867
+          rotation.format: Quaternion
+          scale:
+            - 0.0316959657
+            - 0.0498173609
+            - 10.3629732
+          translation:
+            - -17.494915
+            - 212.963562
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.059
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100493
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100494
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.721485853
+            - -0.00242583407
+            - 0.692278385
+            - -0.0142488489
+          rotation.format: Quaternion
+          scale:
+            - 4.53181267
+            - 0.484149575
+            - 10.362896
+          translation:
+            - -17.4949188
+            - 212.963577
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.060
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100494
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100495
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.721485555
+            - -0.00242471951
+            - 0.692278743
+            - -0.0142427441
+          rotation.format: Quaternion
+          scale:
+            - 0.0316960141
+            - 0.0498169735
+            - 10.3629055
+          translation:
+            - -17.4949169
+            - 212.963577
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.061
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100495
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100868
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 0.0927416012
+            - 0.0926400647
+            - 0.112469912
+          translation:
+            - 4616.37842
+            - -5412.76367
+            - 1498.21289
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Mesh.001
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100868
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100498
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.721485078
+            - -0.00242426479
+            - 0.692279339
+            - -0.014238473
+          rotation.format: Quaternion
+          scale:
+            - 0.0316960178
+            - 0.0498172604
+            - 10.3628817
+          translation:
+            - -17.4949188
+            - 212.963577
+            - -83.9756088
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.064
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100498
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100499
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.721485794
+            - -0.00242468691
+            - 0.692278564
+            - -0.0142405778
+          rotation.format: Quaternion
+          scale:
+            - 0.0316956528
+            - 0.0498172157
+            - 10.362895
+          translation:
+            - -17.4949207
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.065
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100499
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100500
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.721485734
+            - -0.00242508273
+            - 0.692278564
+            - -0.0142426854
+          rotation.format: Quaternion
+          scale:
+            - 0.031695623
+            - 0.0498172008
+            - 10.3628359
+          translation:
+            - -17.4949188
+            - 212.963593
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.066
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100500
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100501
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451283
+            - -0.511882365
+            - 0.499592245
+            - 0.479438454
+          rotation.format: Quaternion
+          scale:
+            - 0.0316959471
+            - 0.0498166271
+            - 4.79663277
+          translation:
+            - -17.4949188
+            - 212.963593
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.067
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100501
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100502
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508448124
+            - -0.511882842
+            - 0.499595493
+            - 0.479438186
+          rotation.format: Quaternion
+          scale:
+            - 4.53167152
+            - 0.484161258
+            - 5.33055019
+          translation:
+            - -17.4949207
+            - 212.963608
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.068
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100502
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100009
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 0.00101181213
+            - 0.00650869217
+            - 0.00146803597
+          translation:
+            - 45.3111153
+            - -87.0870438
+            - 274.941559
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Mesh.007
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100009
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100017
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 0.00101181201
+            - 0.00650869217
+            - 0.00146803597
+          translation:
+            - 45.3111115
+            - -87.0870209
+            - 275.953033
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Mesh.009
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100017
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100505
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451104
+            - -0.511882365
+            - 0.499592453
+            - 0.479438722
+          rotation.format: Quaternion
+          scale:
+            - 0.0316959135
+            - 0.0498156659
+            - 4.79663181
+          translation:
+            - -17.4949207
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.069
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100505
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100509
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451164
+            - -0.511882305
+            - 0.499592453
+            - 0.479438692
+          rotation.format: Quaternion
+          scale:
+            - 0.0316956639
+            - 0.0498157367
+            - 4.7966342
+          translation:
+            - -17.4949207
+            - 212.963623
+            - -83.9756317
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.072
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100509
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100511
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.508451164
+            - -0.511882246
+            - 0.499592513
+            - 0.479438663
+          rotation.format: Quaternion
+          scale:
+            - 0.0316956714
+            - 0.0498158298
+            - 4.79663515
+          translation:
+            - -17.4949226
+            - 212.963608
+            - -83.9756241
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.074
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100511
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100353
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.715222716
+            - 0.698541462
+            - -0.0205153022
+            - 0.00868888106
+          rotation.format: Quaternion
+          scale:
+            - 9.90242386
+            - 0.308634341
+            - 8.85308933
+          translation:
+            - -17.4949169
+            - 212.963562
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Cube.075
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100353
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100152
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.5118801
+            - 0.508450091
+            - 0.479438812
+            - -0.499595553
+          rotation.format: Quaternion
+          scale:
+            - 0.0114964247
+            - 0.00110879377
+            - 1.09710646
+          translation:
+            - -17.4949188
+            - 212.963577
+            - -83.9755936
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Mesh.012
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100152
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100022
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.707106829
+            - 0.707106829
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - -17.4949188
+            - 212.963593
+            - -83.9756165
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Primitives10x10Plane_geom.001
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100022
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100872
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 0.0927415788
+            - 0.09264002
+            - 0.112469807
+          translation:
+            - 4616.37842
+            - -5412.7627
+            - 1498.21277
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Mesh.005
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100872
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100871
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 0.14441061
+            - 0.144252419
+            - 0.175130114
+          translation:
+            - 4616.37842
+            - -5412.7627
+            - 1498.21265
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Mesh.004
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100871
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100866
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 0.289740324
+            - -0.251449287
+            - 0.660878956
+            - 0.645029306
+          rotation.format: Quaternion
+          scale:
+            - 0.0437834114
+            - 0.0437830314
+            - 0.0891204327
+          translation:
+            - 0.000566966832
+            - 0.00404979289
+            - -0.0528293326
+          componentVersion: 1
+          children:
+            - ref:100867
+            - ref:100868
+            - ref:100869
+            - ref:100870
+            - ref:100871
+            - ref:100872
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100866
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100896
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 0.0010118119
+            - 0.00650869263
+            - 0.00146803597
+          translation:
+            - -28.4523125
+            - 79.3591461
+            - 207.846756
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Mesh.006
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100896
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100013
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 0.00101181213
+            - 0.00650869217
+            - 0.00146803597
+          translation:
+            - 45.3111076
+            - -87.0870361
+            - 275.447296
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Mesh.008
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100013
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100131
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 458.537842
+            - -5986.03174
+            - -15383.9316
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:table
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100131
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100141
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 2572.14355
+            - 2343.50488
+            - -9619.32031
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:leg
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100141
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100142
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 1
+            - 1
+            - 1
+          translation:
+            - 2572.1438
+            - 2343.50513
+            - -9619.32129
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Seating8
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100142
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100867
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 0.195130721
+            - 0.194917113
+            - 0.236639529
+          translation:
+            - 4616.37744
+            - -5412.7627
+            - 1498.21265
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Mesh
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100867
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100869
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 0.092741549
+            - 0.09264002
+            - 0.112469807
+          translation:
+            - 4616.37793
+            - -5412.76318
+            - 1498.21289
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Mesh.002
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100869
+    - components:
+        com.meta.components.Animatable:
+          {}
+        com.meta.components.Name:
+          name: 100870
+        com.meta.components.PointerNodeInverseComponent:
+          {}
+        com.meta.components.SceneNode:
+          rotation.data:
+            - 1
+            - 0
+            - 0
+            - 0
+          rotation.format: Quaternion
+          scale:
+            - 0.144410521
+            - 0.144252509
+            - 0.17513001
+          translation:
+            - 4616.37793
+            - -5412.76318
+            - 1498.21265
+          componentVersion: 1
+        com.meta.components.SceneNodeMesh:
+          mesh: ref:Mesh.003
+        com.meta.components.Visibility:
+          visible: true
+      tag: 100870
+metadata:
+  version: 1.35

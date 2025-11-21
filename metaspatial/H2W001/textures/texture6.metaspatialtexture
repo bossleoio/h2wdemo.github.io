@@ -1,0 +1,9 @@
+entities:
+  components:
+    com.meta.components.Name:
+      name: texture6
+    com.meta.components.Texture:
+      image: ref:100032submesh0_BR
+      sampler: ref:sampler0
+metadata:
+  version: 1.35
